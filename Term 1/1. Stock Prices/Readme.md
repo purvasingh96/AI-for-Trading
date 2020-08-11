@@ -40,8 +40,21 @@
 *Liquidity* refers to a property of a financial asset which is meant to be bought or sold without causing sharp changes in its price.
 
 ## Tick Data
-Stock exchange publishes a stream of data that includes each individual trade. This is known as *tick data*. Ticks are an intuitive way to check the health of a stock. 
+Stock exchange publishes a stream of data that includes each individual trade. This is known as *tick data*. Ticks are an intuitive way to check the health of a stock. Tick data can also forms the basis of all market data available for analysis and help you make better intraday decisions.<br>
+<img src="./images/1. tick_data.png" width="350" height="250"></img>
 
+## OHLC : Open, High, Low, Close
+The most common terms used in practice are *Open, High, Low, Close (OHLC)*. Below is an example of how we represent OHLC: <br>
+
+<img src="./images/2. OHLC.png" width="350" height="200"></img>
+<img src="./images/3. OHLC Chart.png" width="350" height="200"></img>
+
+* Open is the stock price at the begining of the period.
+* High and Low capture its range of movement 
+* Close is where it ends. 
+* Daily closing price is the one that is quoted most often. This is usually used by casual traders and investors interested in long term gains.
+* Opening price is where the first trade of the day to take place. There might be a gap from last day's closing price due to pre-market trading or trading in other markets.
+* High-Low captures the movement of the stocks
 
 
       
