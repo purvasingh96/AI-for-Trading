@@ -34,4 +34,14 @@
 1. *Buyers and sellers* are those who go through the stock exchange to buy a stock that they think will do well, or sell a stock that they wish to remove from their investments. <br>
 2. *Market maker*, is the one who serves as the counterparty of these buyers or sellers. Since every buyer needs a seller, and every seller needs a buyer, a market maker plays the role of seller to those who wish to buy, and plays the role of buyer for those who wish to sell and by convention they are known as *sell side of the finance industry*. The sell side usually includes investment banks such as *Goldman Sachs, Morgan Stanley*.<br>
 3. The *buy side* refers to individual investors, and investment funds such as mutual funds and hedge funds.
+
+## Liquidity
+
+*Liquidity* refers to a property of a financial asset which is meant to be bought or sold without causing sharp changes in its price.
+
+## Tick Data
+Stock exchange publishes a stream of data that includes each individual trade. This is known as *tick data*. Ticks are an intuitive way to check the health of a stock. 
+
+
+
       
