@@ -2,6 +2,8 @@
 
 # Terminologies
 
+## Basics
+
 1. **Stock** : An asset that represents ownership in a company. A claim on part of a corportation's assets and earnings. There are two main types, common and preferred.
 
 2. **Share** : A single share represents partial ownership of a company relative to the total number of shares in existence.
@@ -28,5 +30,8 @@
 
 13. **Futures Contract** : A contract that obligates the buyer to buy or the seller to sell an asset at a predetermined price at a specified time in the future
 
-
+## Buy and Sell Side
+1. *Buyers and sellers* are those who go through the stock exchange to buy a stock that they think will do well, or sell a stock that they wish to remove from their investments. <br>
+2. *Market maker*, is the one who serves as the counterparty of these buyers or sellers. Since every buyer needs a seller, and every seller needs a buyer, a market maker plays the role of seller to those who wish to buy, and plays the role of buyer for those who wish to sell and by convention they are known as *sell side of the finance industry*. The sell side usually includes investment banks such as *Goldman Sachs, Morgan Stanley*.<br>
+3. The *buy side* refers to individual investors, and investment funds such as mutual funds and hedge funds.
       
