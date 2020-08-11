@@ -56,5 +56,23 @@ The most common terms used in practice are *Open, High, Low, Close (OHLC)*. Belo
 * Opening price is where the first trade of the day to take place. There might be a gap from last day's closing price due to pre-market trading or trading in other markets.
 * High-Low captures the movement of the stocks
 
+## Volume
+Another valuable metric is the number of shares traded over a period of time known as *Volume*. Sum of *unit_price times volume* gives an accurate description of total amount of money moving around. Volume can also decide how sharply the price may rise or fall.<br>
+In general:<br>
+* *large volume of buy order tends to increased stock price*. 
+* *large volume of net sell orders tends to decreased stock price*. 
+
+### Intraday Volume
+Stocks that are of active interest will see a lot of trading at the begining of the day. All the investors engage in a process called *price discovery* where they analyze all the new information gathered since the previous day's market close. This process of *price discovery* helps buyers and sellers agree on a mutually accpetable market price value for the stock.<br>
+
+Then the volume falls as the day proceeds.<br>
+Finally, towards the end of the trading day, activity tends to increase a little, resulting in higher volume. This can happen due to day-traders wanting to close out any open positions and funds that typically update their holdings at the end of the day.<br>
+
+
+
+
+
+
+
 
       
