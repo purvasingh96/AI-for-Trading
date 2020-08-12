@@ -137,10 +137,25 @@ Now if we point the plots that are above and below these Bollinger Bands, we can
 <img src="./images/14. Buy sell - 2.png" width="400" height="250"></img><br>
 
 
+# Price to Earnings Ratio
 
+A term you’ll see often is price to earnings ratio, or PE ratio for short. <br>
+```
+PE Ratio = (stock’s current market price) / (most recently reported earnings per share (EPS)) 
+```
+You can sort of interpret the PE ratio as how much the company is valued compared to how much money it made.<br>
+The market price of a stock is based on both its current assets minus liabilities, but also estimates of the company’s future performance.<br><br>
+A high PE ratio may indiciate that based on historical earnings growth,  investors expect potential for high earnings growth. On the other hand, it’s also possible that investor optimism towards the company’s future never materializes, in which case the stock may be overpriced.<br>
 
+Also, an example of a company with a low PE ratio may be one that has high and stable earnings, but less expectations for future growth.
 
+# Exchange Traded Funds (ETFs)
 
+Many banks and other financial institutiosn offer *mutual funds* where the professionals pull the money from multiple investors and buy shares on their behalf. We can chose funds according to our investment goals -<br>
+1. Lower rate of return : Reduced risk 
+2. Higher rate of return : High risk
+
+In addition to combining multiple stocks, some funds are traded on stock exchange themselves i.e. in order to invest money in these funds, we need to buy their shares on the market. Hence they are known as *Exchange Traded Funds (ETFs)*. A popular ETF is *Standard & Poor's 500 (S&P500)*
 
 
 
