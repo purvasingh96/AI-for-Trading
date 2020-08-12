@@ -95,6 +95,57 @@ One of the ways to normalize stock-split data is to half the price before 2:1 sp
 <img src="./images/8. Adjusted Prices.png" width="350" height="200"></img>
 
 
+## Dividends
+Dividends are when companies share some fraction of their profits with their shareholders. Dividends are given only to those share-holders who have *bought the shares before the ex-dividend date.*
+
+### Dividends Normalization
+In order to normalize stocks based on dividends, we need to first calculate *adjusted price factor* as per the formula below : <br>
+```
+Adjusted Price Factor = 1 + Dividend/(Stock price at ex-dividend date)
+```
+To normalize the price, we need to divide the historical price by *adjusted price factor*.
+
+
+# Technical Indicators
+
+## Moving Window or Rolling Mean
+
+After adjusting the stock prices based on dividends, in order to use this information for buying/selling stocks, we need to first compute statistical measures known as *indicators* for ex. *raw price of the stock*. In order to make a decision on which stock to buy/sell, we need to compute the *expected price* of that stock. This can be computed by calculating the recent average price (average over few weeks/months) of the stock. This can be done by calculating average over *fixed window length over time*. This is known as *Simple Moving Average (Rolling Mean)*.<br><br>
+
+<img src="./images/9. Rolling mean.png" width="400" height="250"></img>
+<img src="./images/10. Rolling mean points.png" width="400" height="250"></img><br>
+
+
+If the stock price falls too far below this average, we should buy it and if stock price rises well above this average, we should sell it. <br>
+
+<img src="./images/11. Buy sell - 1.png" width="400" height="250"></img><br>
+
+So how low is too low or how high is too high. We basically need a threshold value before we can buy/sell stocks. For this we need a measure that is tied to the stock price. One such measure can be *standard deviation* over the rolling window. In general we basically create 2 bands: <br>
+1. 2 Standard Deviations above the mean.
+2. 2 Standard Deviations below the mean.
+
+The lines that form 2 S.D above and below the mean are called *Bollinger Bands*.<br><br>
+<img src="./images/12. Bollinger bands.png" width="400" height="250"></img><br>
+
+Now if we point the plots that are above and below these Bollinger Bands, we can see very few outliers and picture becomes clearer.<br>
+
+<img src="./images/13. outliers.png" width="400" height="250"></img><br>
+
+1. When a particular point below the lower Bollinger band tries to crawl back inside the mean, that's when we should *buy the stocks*.
+2. On the other hand, we can *sell the stock* if it starts to decrease towards the mean. <br><br>
+
+<img src="./images/14. Buy sell - 2.png" width="400" height="250"></img><br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
