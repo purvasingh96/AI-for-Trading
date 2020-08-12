@@ -82,14 +82,17 @@ When a company decides to split its stocks into two, *its price drops by half.* 
 ```
 Market Capitalization = Stock Price X Total number of shares outstanding
 ```
+<br>
+<img src="./images/6. Stock Split.png" width="350" height="200"></img>
 
 Now when stock split happens (2:1), there are *twice as many outstanding shares*. In order to neutralize the market capitalization, the *stock price has to drop by half.*<br>
-One of the reasons aas to why companies perform *stock split* is to make the stock more liquid in order to maintain healthy volume of transactions.
+One of the reasons as to why companies perform *stock split* is to make the stock more liquid in order to maintain healthy volume of transactions.
 
 ### Stock Split Normalization
-If we look at the graph of a company's stock price that has recently performed stock split, it may look like that company's stock has reduced drastically, which *is not the case*. The value of the company has not changed since the split. In order to correct this, we need to normalize the data to mitigate the sudden changes. <br>
-
-One of the ways to normalize stock-split data is to half the price before 2:1 split, thirds the price before any 3:1 split and so on. Stock prices normalized in such manner are called *adjusted prices.*
+If we look at the graph of a company's stock price that has recently performed stock split, it may look like that company's stock has reduced drastically, which *is not the case*. The value of the company has not changed since the split. In order to correct this, we need to normalize the data to mitigate the sudden changes. <br><br>
+<img src="./images/7. Stock drops.png" width="350" height="200"></img><br>
+One of the ways to normalize stock-split data is to half the price before 2:1 split, thirds the price before any 3:1 split and so on. Stock prices normalized in such manner are called *adjusted prices.*<br><br>
+<img src="./images/8. Adjusted Prices.png" width="350" height="200"></img>
 
 
 
