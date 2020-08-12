@@ -158,7 +158,8 @@ Many banks and other financial institutiosn offer *mutual funds* where the profe
 In addition to combining multiple stocks, some funds are traded on stock exchange themselves i.e. in order to invest money in these funds, we need to buy their shares on the market. Hence they are known as *Exchange Traded Funds (ETFs)*. A popular ETF is *Standard & Poor's 500 (S&P500)*
 
 
-
+## ETF Compositional Data
+Considering an example where I want to diversify my investment to reduce market risk. This can be done by analyzing individual performance or correlations between stocks. This generates a *portfolio* that is well balanced and not too corelated.
 
 
 
