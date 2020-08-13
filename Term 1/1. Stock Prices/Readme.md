@@ -166,7 +166,9 @@ Considering an example where I want to diversify my investment to reduce market 
 The measure of how much the client's investment has increased or decreased in value is known as *Stock Return*. The raw return may be referred to simply as the return, or alternatively, as the percentage return, linear return, or simple return. It can be calculated as below : <br><br>
 <img src="./images/15. Stock Return.png" width="400" height="250"></img><br>
 
-Notebook on how to calculate stock returns : notebook
+Notebook on how to calculate stock returns : [calculate_stock_returns.ipynb](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/1.%20Stock%20Prices/Quizes/calculate_returns.ipynb)
+
+
 
 
 
