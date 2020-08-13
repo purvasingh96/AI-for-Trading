@@ -163,12 +163,16 @@ Considering an example where I want to diversify my investment to reduce market 
 
 
 # Stock Returns
+
+## Raw Returns
 The measure of how much the client's investment has increased or decreased in value is known as *Stock Return*. The raw return may be referred to simply as the return, or alternatively, as the percentage return, linear return, or simple return. It can be calculated as below : <br><br>
 <img src="./images/15. Stock Return.png" width="400" height="250"></img><br>
 
 Notebook on how to calculate stock returns : [calculate_stock_returns.ipynb](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/1.%20Stock%20Prices/Quizes/calculate_returns.ipynb)
 
-
+## Log Returns
+Log returns provide more intuitiive way to analyze how much the client's investment has increased or decreased in value. Log returns can be calculated as follows :<br>
+<img src="./images/16. Log Returns.png" width="400" height="200"></img><br>
 
 
 
