@@ -215,4 +215,24 @@ A long (or long position) is the purchase of an asset under the expectation that
 ### Short
 A short (or short position) is the selling of an asset under the expectation that the price of the asset will decline. In practice, an investor profits from a short position by borrowing shares from a brokerage firm (agreeing to pay an interest rate as a fee), selling them on the open market, and later buying them back on the open market at a lower price and returning them to the brokerage firm.
 
+## Trading Strategy
+Below figure describes the 5 steps to formulate your trading strategy and create a portfolio of long and short positions -<br>
+
+* *Stock Universe* : group of stocks that share some common features or belong to the same market.
+* By *daily close prices*, the figure means *adjusted closing prices*.
+* In the example below, we have chosen a stock universe from *S&P500*. Make sure that the dataset you choose for testing your strategy for a particular year, say 2020, contains the companies that were a part of stock universe in 2020.<br><br>
+
+<img src="./images/19. Trading Strategy.png" width="500" height="250"></img><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
 
