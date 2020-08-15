@@ -224,10 +224,13 @@ Below figure describes the 5 steps to formulate your trading strategy and create
 
 <img src="./images/19. Trading Strategy.png" width="500" height="250"></img><br><br>
 
+## Calculating performance of our trading strategy
+* *Goal* : Check if mean montly return of our portfolio is greater than 0.
+* Based on our trading strategy we see that montly mean is 0.53% (greater than 0). This *mean* could also be a random fluctuation and our *true mean* could be *less than or equal to 0.*
 
-
-
-
+### Statistical Test
+One way to test our monthly mean is actually greater than 0 or not is by performing *t-test*. The formula for *t-test* is shown in the figure below:<br><br>
+<img src="./images/20. t-test.png" width="500" height="250"></img><br><br>
 
 
 
