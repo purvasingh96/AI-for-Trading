@@ -6,3 +6,4 @@ In this project, you will learn to implement a trading strategy on your own, and
 ## Important Links
 
 1. [Panda's resampling example](https://towardsdatascience.com/using-the-pandas-resample-function-a231144194c4)
+2. [loc and iloc playground by DataCamp](https://campus.datacamp.com/courses/intermediate-python/dictionaries-pandas?ex=17)
