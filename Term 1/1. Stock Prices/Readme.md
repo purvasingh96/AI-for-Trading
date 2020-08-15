@@ -200,11 +200,19 @@ In this case, you believe that, due to momentum strategy, it will continue to fa
 <img src="./images/17. Shorting.png" width="400" height="200"></img><br><br>
 It means that you borrow shares from someone, ex. broker and promise to return them once your short position is closed. Brokers earn from the profit you make on your short sale. In case you fail to fulfill the promise and never buy-back the shares, in this case, brokers ask you to keep some money in margin account. 
 
+## Terminologies 
 ### Cross-sectional Strategy
 It can be risky to invest in individual stock markets. Instead, you can adopt a cross-sectional strategy, where you invest in multiple stocks at the same time and use the ranking to select stocks for *long (top-performers)* and *short (bottom performers)* positions.<br><br>
 
 <img src="./images/18. Cross sectional trading.png" width="400" height="200"></img><br><br>
 
+### Portfolio
+A portfolio is a collection of investments held and/or managed by an investment company, hedge fund, financial institution or individual.
 
+### Long
+A long (or long position) is the purchase of an asset under the expectation that the price of the asset will rise.
+
+### Short
+A short (or short position) is the selling of an asset under the expectation that the price of the asset will decline. In practice, an investor profits from a short position by borrowing shares from a brokerage firm (agreeing to pay an interest rate as a fee), selling them on the open market, and later buying them back on the open market at a lower price and returning them to the brokerage firm.
 
 
