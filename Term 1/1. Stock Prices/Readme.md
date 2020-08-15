@@ -41,7 +41,7 @@
 
 ## Tick Data
 Stock exchange publishes a stream of data that includes each individual trade. This is known as *tick data*. Ticks are an intuitive way to check the health of a stock. Tick data can also forms the basis of all market data available for analysis and help you make better intraday decisions.<br>
-<img src="./images/1. tick_data.png" width="350" height="250"></img>
+<img src="./images/1. tick_data.png" width="400" height="250"></img>
 
 ## OHLC : Open, High, Low, Close
 The most common terms used in practice are *Open, High, Low, Close (OHLC)*. Below is an example of how we represent OHLC: <br>
@@ -185,10 +185,25 @@ These are some generally accepted reasons that quantitative analysts use log ret
 6. Logarithms can help make an algorithm more numerically stable
 
 
+# Momentum Trading
+Taking a reference from Newton's Laws of Motion, an object at rest continues to stay at rest or an object moving at a constant speed continues to move at that constant speed unless acted upon by an unbalanced force. <br>
+Somewhat similar strategy can be applied to stock market as well. In momentum trading we assume that the stocks that are going up, will continue to go up and stocks that are falling down will continue to keep falling.<br>
 
+## Long and Short Positions
+Lets assume that you are using *momentum signals* as a way of predicting stock's movement. There are 2 cases that arise here -<br>
+1. *Stock has an upward momentum.*<br>
+In this case, you will buy the stocks and hold on to it for a fixed time or until stock starts to fall. This is known as *taking a long position on the stock*. And when you sell your stock at a higher position than you bought it, that is known as *closing your position.*<br><br>
+<img src="./images/17. Long Positions.png" width="400" height="200"></img><br>
 
+2. *Stock has a downward momentum.*<br>
+In this case, you believe that, due to momentum strategy, it will continue to fall down for some time. In this scenario, you take a *short position on stock*, where you sell first and buy back later. <br><br>
+<img src="./images/17. Shorting.png" width="400" height="200"></img><br><br>
+It means that you borrow shares from someone, ex. broker and promise to return them once your short position is closed. Brokers earn from the profit you make on your short sale. In case you fail to fulfill the promise and never buy-back the shares, in this case, brokers ask you to keep some money in margin account. 
 
+### Cross-sectional Strategy
+It can be risky to invest in individual stock markets. Instead, you can adopt a cross-sectional strategy, where you invest in multiple stocks at the same time and use the ranking to select stocks for *long (top-performers)* and *short (bottom performers)* positions.<br><br>
 
+<img src="./images/18. Cross sectional trading.png" width="400" height="200"></img><br><br>
 
 
 
