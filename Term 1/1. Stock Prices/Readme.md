@@ -174,6 +174,15 @@ Notebook on how to calculate stock returns : [calculate_stock_returns.ipynb](htt
 Log returns provide more intuitiive way to analyze how much the client's investment has increased or decreased in value. Log returns can be calculated as follows :<br>
 <img src="./images/16. Log Returns.png" width="400" height="200"></img><br>
 
+### Why log returns?
+These are some generally accepted reasons that quantitative analysts use log returns:<br>
+
+1. Log returns can be interpreted as continuously compounded returns.
+2. Log returns are time-additive. The multi-period log return is simply the sum of single period log returns.
+3. The use of log returns prevents security prices from becoming negative in models of security returns.
+4. For many purposes, log returns of a security can be reasonably modeled as distributed according to a normal distribution.
+5. When returns and log returns are small (their absolute values are much less than 1), their values are approximately equal.
+6. Logarithms can help make an algorithm more numerically stable
 
 
 
