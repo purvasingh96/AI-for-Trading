@@ -229,8 +229,27 @@ Below figure describes the 5 steps to formulate your trading strategy and create
 * Based on our trading strategy we see that montly mean is 0.53% (greater than 0). This *mean* could also be a random fluctuation and our *true mean* could be *less than or equal to 0.*
 
 ### Statistical Test
-One way to test our monthly mean is actually greater than 0 or not is by performing *t-test*. The formula for *t-test* is shown in the figure below:<br><br>
+One way to test our monthly mean is actually greater than 0 or not is by performing *t-statistic test*. The formula for *t-test* is shown in the figure below:<br><br><br>
 <img src="./images/20. t-test.png" width="500" height="250"></img><br><br>
+Using this *t-statistic*, we can calculate the probability of getting mean monthly return of 0.53% or greater if *true mean monthly return zero*, given the assumptions made to build our model are correct. This probability is called *p-value.*<br><br>
+
+<img src="./images/21. p value.png" width="500" height="250"></img><br><br>
+
+* *p-value is very small : unlikely that true mean is zero.* We need to also set a *threshold* for p-value to conclude that if p-value falls below this threshold, the true-mean is unlikely to be zero. This threshold is denoted by the term *alpha*. Commonly used value is 0.1.<br><br>
+<img src="./images/22. alpha.png" width="500" height="250"></img><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
