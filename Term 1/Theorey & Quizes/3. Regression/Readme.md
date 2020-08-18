@@ -24,5 +24,50 @@ If our data is heteroscedastic, a linear regression estimate of the coefficients
 
 <br><br><img src="./images/1. BP Test.png" width="450" height="250"></img><br><br>
 
+## Transforming Data
+In order to transform our data into a normal data, we can feed our data into *log function.*
+<br><br><img src="./images/3. Data transformation.png" width="450" height="250"></img><br><br>
+
+
+In order to make data *homoscedastic*, we usually take the rate of return from one day to the next and then pass that data through log function.
+
+<br><br><img src="./images/4. Log transformation.png" width="450" height="250"></img><br><br>
+
+### Box-cox Transformation
+
+Box-cox transformation is used to make our data `normal + homoscedastic`.A *monotonic transformation* changes the values of dataset but preserves their relative order. Box-cox dataset takes in dataset and outputs a more normally distributed dataset.
+
+<br><br><img src="./images/5. box-cox transformation.png" width="450" height="250"></img><br><br>
+
+
+## Linear Regression
+Taking an example of purchasing the house. Here, we can say that the price of the house depends upon area. For this, we will find area covered by each house as well as their price. We find a coefficient to multiply by the area and add constant term (intercept). This is equation of a straight line. Upon plotting this straight line we want it to pass through almost all the data points.
+
+<br><br><img src="./images/6. linear_regression_1.png" width="450" height="250"></img>
+<br><br><img src="./images/7. plot_linear_regression.png" width="450" height="250"></img><br><br>
+
+We can measure how well the line fits the data by measuring the vertical difference between the points and the line. *An optimal line is the one that reduces these differences.* The process of finding the optimal regression line is called *ordinary least squares.* After plotting the optimal line, there might be some outliers. The difference between best fit line at each point is called *Residual (error terms)*.
+
+### Evaluating Model
+We can evaluate our model to check if its the best fit by the following methods -
+
+1. *R-squared* 
+2. *Adjusted R-squared*
+3. *F-test* 
+
+## Multi-variate Regression
+If we chose more than one depended variable that we wish to predict. For example, we try to predict not just housing price but also home's electricity consumption and gas consumption. This is known as *multi-variate regression.* When we are using more than one *in-depended variable* to *predict more than one depended variable*, it is called *multi-variate multiple regression.*
+
+
+
+
+
+
+
+
+
+
+
+
 
 
