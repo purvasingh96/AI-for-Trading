@@ -12,3 +12,11 @@ The Kolmogorov Smirnov test can be used to compare distributions other than the 
 So in summary, if you want to be thorough, you can use all three tests (there are even more tests that we haven’t discussed here). If you only want to use one test, use the Shapiro-Wilk test. For a sanity check, visualize your data distribution with a histogram, box-whisker plot, and/or a QQ plot.
 
 Corresponding python implementation of Normality can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/3.%20Regression/test_normality.ipynb)
+
+## Heteroskedasticity
+One of the assumptions of linear regression is that its input data are homoscedastic. A visual way to check if the our data is homoscedastic is a scatter plot (like the one we saw in the video).
+
+If our data is heteroscedastic, a linear regression estimate of the coefficients may be less accurate (further from the actual value), and we may get a smaller p-value than should be expected, which means we may assume (incorrectly) that we have an accurate estimate of the regression coefficient, and assume that it’s statistically significant when it’s not.
+
+## Breusch-Pagan Test
+Note, we’ll cover the Breusch-Pagan test for heteroscedasticity in more detail after we learn about regression.
