@@ -19,6 +19,9 @@ An AR model is defined by its *lag*. If an AR model uses only yesterday's value 
 
 <br><br><img src="./images/2. Lag.png" width="450" height="250"></img><br><br>
 
+Usually, autoregressive models are applied to stationary time series only. This constrains the range of the parameters phi.
+For example, an AR(1) model will constrain phi between -1 and 1. Those constraints become more complex as the order of the model increases, but they are automatically considered when modelling in Python.
+
 ## Moving Average Models (MA Models)
 In MA models, we start with average *mu*, to get the value at time t, we add a linear combination of *residuals* from previous time stamps. In finance, *residual* refers to new unpredictable information that can't be captured by past data points. The residuals are *difference between model's past prediction and actual values.* <br>
 Moving average models are defined as *MAQ* where *Q is the lag.*
