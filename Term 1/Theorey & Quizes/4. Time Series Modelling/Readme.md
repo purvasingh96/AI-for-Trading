@@ -23,3 +23,6 @@ An AR model is defined by its *lag*. If an AR model uses only yesterday's value 
 In MA models, we start with average *mu*, to get the value at time t, we add a linear combination of *residuals* from previous time stamps. In finance, *residual* refers to new unpredictable information that can't be captured by past data points. The residuals are *difference between model's past prediction and actual values.* <br>
 Moving average models are defined as *MAQ* where *Q is the lag.*
 <br><br><img src="./images/2. MA model.png" width="590" height="80"></img><br><br>
+
+## Auto Regressive Moving Average Model (ARMA)
+The ARMA model is defined with a *p and q*. *p* is the lag for autoregression and *q* is lag for moving average.
