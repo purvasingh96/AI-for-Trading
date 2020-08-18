@@ -25,4 +25,36 @@ Moving average models are defined as *MAQ* where *Q is the lag.*
 <br><br><img src="./images/2. MA model.png" width="590" height="80"></img><br><br>
 
 ## Auto Regressive Moving Average Model (ARMA)
-The ARMA model is defined with a *p and q*. *p* is the lag for autoregression and *q* is lag for moving average.
+The ARMA model is defined with a *p and q*. *p* is the lag for autoregression and *q* is lag for moving average. Regression based training models require data to be *stationary*. For a non-stationary dataset, the mean, variance and co-variance may change over time. This causes difficulty in predicting future based on past.
+
+### Extracting stationary data
+
+One way to get stationary time-series is by taking difference between points in time-series. This time difference is called *rate of change.*<br>
+```python
+rate_of_change = current_price / previous_price
+```
+<br>
+The corresponding log return will become : <br>
+
+```python
+
+log_returns = log(current_price) - log(previous_price)
+
+```
+
+## Autoregressive Integrated Moving Average (ARIMA)
+Below figure shows the workflow to run *Augmented Dickey Test* to check if data is stationary or not.
+
+<br><br><img src="./images/6. ARIMA.png" width="450" height="250"></img><br><br>
+
+
+
+## Important libraries
+
+```python
+
+from statsmodels.tsa.arima_model import ARMA
+from statsmodels.tsa.arima_process import ArmaProcess
+from statsmodels.stats.diagnostic import acorr_ljungbox
+```
+
