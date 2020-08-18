@@ -14,9 +14,15 @@ So in summary, if you want to be thorough, you can use all three tests (there ar
 Corresponding python implementation of Normality can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/3.%20Regression/test_normality.ipynb)
 
 ## Heteroskedasticity
-One of the assumptions of linear regression is that its input data are homoscedastic. A visual way to check if the our data is homoscedastic is a scatter plot (like the one we saw in the video).
+One of the assumptions of linear regression is that its input data are homoscedastic. A visual way to check if the our data is homoscedastic is a scatter plot.
+
+<br><br><img src="./images/2. hetero-homo scedasticity.png" width="450" height="250"></img><br><br>
 
 If our data is heteroscedastic, a linear regression estimate of the coefficients may be less accurate (further from the actual value), and we may get a smaller p-value than should be expected, which means we may assume (incorrectly) that we have an accurate estimate of the regression coefficient, and assume that it’s statistically significant when it’s not.
 
 ## Breusch-Pagan Test
-Note, we’ll cover the Breusch-Pagan test for heteroscedasticity in more detail after we learn about regression.
+
+<br><br><img src="./images/1. BP Test.png" width="450" height="250"></img><br><br>
+
+
+
