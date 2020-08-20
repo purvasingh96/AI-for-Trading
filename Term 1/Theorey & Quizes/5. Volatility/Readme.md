@@ -31,4 +31,21 @@ If we want to check how volatility is changing over-time, we use the option of *
 Python implementation of using rolling-windows to calculate average can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/5.%20Volatility/rolling_windows.ipynb)
 
 
+## Exponentially Weighted Moving Average
+For estimating volatility, we can increase the influence of the more recent past. One common way to do this is to weigh the observation from yesterday, the highest, and then decrease the weights exponentially. This is called *exponentially weighted moving average.*
+<br><br><img src="./images/5. EWMA.png" width=400 height=250></img><br><br>
+
+The formula for calculating exponentially weighted moving average is as follows :
+<br><br><img src="./images/6. weighted log returns.png" width=500 height=100></img>
+<br><img src="./images/7. description_ewma.png" width=560 height=100></img><br><br>
+
+
+
+
+
+
+
+
+
+
 
