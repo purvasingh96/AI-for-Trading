@@ -1,1 +1,0 @@
-# Paris Trading and Aversion
