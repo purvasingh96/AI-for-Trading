@@ -27,3 +27,19 @@ Market capitalization refers to the total dollar market value of a company's out
 
 * Growth stocks tend to have high price to earnings, price to sales, and price to book ratios.
 * Value stocks tend to have lower price to earnings, price to sales, and price to book ratios.
+
+
+### Free Float
+* Free float shares refers to the number of shares that are liquid and tradable on the stock exchange.
+* Free float shares may be considered a better measure when calculating market cap because only free float shares can be bought or sold, which means only the trade of free float shares affects the market movement of the stock.
+
+### Active vs. Passive Funds
+* Actively Managed Fund: seeks to outperform its benchmark (such as an index).
+* Passively Managed Fund: seeks to track its benchmark (such as an index).
+* *Note:*  passively managed funds that track an index are also referred to ask “index funds”. An index fund is a fund, not an index.
+
+
+
+
+
+
