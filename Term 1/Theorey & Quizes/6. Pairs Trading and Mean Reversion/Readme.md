@@ -62,9 +62,12 @@ If A and B are cointegrated then it implies that this equation above is stationa
 The method to test if two series are co-integrated is called *Engle-Granger Test.*:<br>
 
 1. Get the hedge ratio from linear regression
-2. Calculate spread and check if spread is stationary.
+2. Calculate spread and check if spread is stationary (*augmented dickey-fuller test*).
     * if spread is staionary -> two series are cointegrated.
 
+### Augmented Dickey-Fuller Test
+1. Used to check if two series are stationary.
+      * p-value <=0.05 -> spread stationary, stocks conintegrated
 
 
 
