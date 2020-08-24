@@ -39,6 +39,36 @@ Market capitalization refers to the total dollar market value of a company's out
 * *Note:*  passively managed funds that track an index are also referred to ask “index funds”. An index fund is a fund, not an index.
 
 
+## Smart Beta Portfolios
+
+* When we use the universe of stocks from an index, and then apply some weighting scheme other than market cap weighting, it can be considered a type of smart beta fund.
+* By contrast, a purely alpha fund may create a portfolio of specific stocks, not related to an index, or may choose from the global universe of stocks. The other characteristic that makes a smart beta portfolio "beta" is that it gives its investors a diversified broad exposure to a particular market.
+
+## Funds : Mutual Funds and Hedge Funds
+### Mutual Funds
+* Everyday investors
+* Long Only
+* No Lockup Period
+
+### Hedge Funds
+
+* High Net Worth or Institutions (Pension Funds)
+* Long and Short positions
+* Trade Derivatives (Options, Futures)
+* Lockup Periods in which investors cannot redeem their investments.
+
+
+## Relative and Absolute Returns
+
+Relative return is a fund’s return minus its benchmark’s return. For an actively managed fund, this is called the active return. For a passively managed fund, this is the tracking error.
+
+### Tracking Error formula
+
+
+
+
+
+
 
 
 
