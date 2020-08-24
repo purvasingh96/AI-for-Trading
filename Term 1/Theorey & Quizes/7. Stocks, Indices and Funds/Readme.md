@@ -49,6 +49,11 @@ Market capitalization refers to the total dollar market value of a company's out
 * Everyday investors
 * Long Only
 * No Lockup Period
+* 2 types of mutual funds -
+    * **Open-end** : New investments allowed after fund starts. Allows investors to withdraw money directly from fund.The total return of the fund is a weighted average of the portfolio return and the interest earned from the cash.
+      * Holding cash : The total return of an open end fund is a weighted average of its portfolio return and the return on its cash holdings. 
+      `The fraction invested in equities × return on equities + fraction invested in cash × return on cash = total return`
+    * **Close-end** : Closed End Funds accept investors at the start of the fund, and do not take new investments nor handle redemptions afterward. This means that the closed end fund does not need to keep cash for liquidity purposes or to handle redemptions. Investors who wish to stop investing in the fund may sell their shares to other investors on a stock exchange, the same way they would sell stocks. 
 
 ### Hedge Funds
 
@@ -77,7 +82,9 @@ Absolute returns refer to a fund’s goal to target a certain return regardless 
 NAV: Net Asset Value AUM: Assets Under Management NAV = (AUM - Expenses) / (number of shares)
 ```
 
-
-
+### Expense Ratio
+```
+AUM: Assets Under Management Gross Expense Ratio: Expenses / AUM Net Expense Ratio: (Expenses - Discounts) / AUM
+``
 
 
