@@ -68,7 +68,15 @@ The redeem process involves the following steps:<br>
 2. The AP trades these ETF shares with the ETF Sponsor in exchange for the original stocks.
 3. The AP sells these stocks on the stock exchange.
 
+ ## Arbitrage
  
+Arbitrage is the act of simultaneously buying and selling assets that are interchangeable, in order to profit from pricing differences. Arbitrage plays a role in making markets more efficient, which means that prices are more consistent for the same asset. When investors and funds collectively find and act on arbitrage opportunities, they reduce price discrepancies in the market.
+
+## Misaligned ETF prices and Arbitrage Opportunity
+* The market value of an ETF share may diverge from the market value of its underlying portfolio of stocks (its NAV).
+* If an ETF share price is higher than its NAV, we say it’s trading at a premium.
+* If an ETF share price is lower than its NAV, we say it’s trading at a discount.
+* The difference between the ETF share price and its NAV can be called its “basis”.
 
 
 
