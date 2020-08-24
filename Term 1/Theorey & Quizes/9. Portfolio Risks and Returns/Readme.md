@@ -25,7 +25,7 @@ The term *Cov* is covariance which is the measure of joint variablity of 2 rando
 
 <br><img src="./images/2. covariance matrix.png" width=450 height=650></img><br><br>
 
-## Summary
+### Portfolio Return and Variance
 
 <br><img src="./images/4. portfolio return and variance.png" width=400 height=250></img><br><br>
 
@@ -38,5 +38,14 @@ The efficient frontier for a given set of stocks gives us the set of portfolios 
 
 <img src="./images/8. division.png" width=400 height=250></img><br><br>
 The minimum variance portfolio is a single portfolio in the efficient frontier that has the lowest risk.
+
+## Capital Market Line
+
+The Capital Market Line is a graphical representation of all the portfolios that optimally combine risk and return. CML is a theoretical concept that gives optimal combinations of a risk-free asset and the market portfolio. The CML is superior to Efficient Frontier in the sense that it combines the risky assets with the risk-free asset.
+
+<br><br><img src="./images/7. capital_market_line.png" width=400 height=250></img> <img src="./images/8. portfolio return.png" width=400 height=250></img>
+
+### Risk-free Assets
+An asset that provides guarenteed rate of returns with no uncertainity. Usually entirely risk-free assets donot exist but rate of return on a 3 month treasury bill is called *risk-free rate.* 
 
 
