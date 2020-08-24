@@ -64,7 +64,7 @@ Relative return is a fund’s return minus its benchmark’s return. For an acti
 
 ### Tracking Error formula
 
-
+<img src="./Images/1. TE formula.png" width=650 height=250></img>
 
 
 
