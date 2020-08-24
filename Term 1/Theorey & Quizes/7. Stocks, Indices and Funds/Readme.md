@@ -83,8 +83,8 @@ NAV: Net Asset Value AUM: Assets Under Management NAV = (AUM - Expenses) / (numb
 ```
 
 ### Expense Ratio
-```
-AUM: Assets Under Management Gross Expense Ratio: Expenses / AUM Net Expense Ratio: (Expenses - Discounts) / AUM
-``
+`AUM: Assets Under Management Gross Expense Ratio: Expenses / AUM Net Expense Ratio: (Expenses - Discounts) / AUM `
 
+### Transaction Costs
 
+Transaction costs are costs from buying or selling (trading) stocks or other assets. The main type of transaction cost for institutional investors (mutual funds, hedge funds) are the costs of moving the market price from large trades.
