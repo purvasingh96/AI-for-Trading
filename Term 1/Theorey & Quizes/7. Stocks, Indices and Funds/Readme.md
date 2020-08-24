@@ -52,6 +52,7 @@ Market capitalization refers to the total dollar market value of a company's out
 
 ### Hedge Funds
 
+* Hedging refers to entering into a transaction in order to reduce exposure to price fluctuations by buying derivatives such as futures, options
 * High Net Worth or Institutions (Pension Funds)
 * Long and Short positions
 * Trade Derivatives (Options, Futures)
@@ -60,14 +61,21 @@ Market capitalization refers to the total dollar market value of a company's out
 
 ## Relative and Absolute Returns
 
+### Relative Returns
+
 Relative return is a fund’s return minus its benchmark’s return. For an actively managed fund, this is called the active return. For a passively managed fund, this is the tracking error.
 
 ### Tracking Error formula
 
 <img src="./Images/1. TE formula.png" width=650 height=250></img>
 
+### Absolute Returns
+Absolute returns refer to a fund’s goal to target a certain return regardless of how the market performs. Hedge funds are usually evaluated by absolute returns.
 
-
+### Net Asset Value (NAV)
+```
+NAV: Net Asset Value AUM: Assets Under Management NAV = (AUM - Expenses) / (number of shares)
+```
 
 
 
