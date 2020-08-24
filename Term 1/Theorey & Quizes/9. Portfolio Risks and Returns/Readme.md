@@ -24,5 +24,8 @@ The term *Cov* is covariance which is the measure of joint variablity of 2 rando
 *Screenshot taken by Udacity's Nanodegree program.*
 <br><img src="./images/2. covariance matrix.png" width=450 height=650></img><br><br>
 
+## Summary
+
+<br><img src="./images/4. portfolio return and variance.png" width=400 height=250></img><br><br>
 
 
