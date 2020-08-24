@@ -38,5 +38,30 @@ ETFs, like mutual funds, allows us to invest in portfolio of stocks. They are tr
 * This means that trading is done during the stock exchange’s open hours, which may not be as convenient for the investor.
 * International ETFs are traded on a local stock exchange, while they are still linked to the stocks that are listed abroad
 
+### Hedging with ETFs
+* Hedge funds use ETFs for hedging purposes. They may construct a portfolio that optimizes their exposure to certain stocks that they believe will perform well, and in order to cancel out general market movements, they may also short an ETF that contains a similar set of stocks. 
+* They may also short sector-specific ETFs if they wish to have a neutral exposure to those sectors.
+
+### ETF Sponsors
+* ETF Sponsors are the financial institutions that issue ETFs. 
+* We can think of them as most similar to the fund managers of mutual funds, because they design a portfolio and issue ETF shares. 
+* ETF Sponsors may generally charge lower fees compared to other types of funds, in part because of some efficiencies that make it cheaper to run the fund.
+
+### Authorized Participants
+Authorized Participants (APs) and ETF Sponsors partner together to make the ETF system work. We can think of APs as the intermediaries between investors and the ETF Sponsor. Unlike mutual funds or hedge funds, ETF Sponsors don’t take cash to invest, nor do they deal directly with investors. ETF Sponsors take a portfolio of stocks instead of cash, and they trade with APs instead of with investors. ETF Sponsors and APs create ETF shares with the “create process”.<br><br>
+
+The “create process” involves the following steps:<br>
+
+1. The Authorized Participant buys stocks and bundles them in the same proportions as defined by the ETF Sponsor.
+2. The AP gives these stocks to the ETF Sponsor.
+3. The ETF Sponsor creates ETF shares and gives these to the AP.
+4. The AP sells the ETF shares to investors.
+
+
+
+
+
+
+
 
 
