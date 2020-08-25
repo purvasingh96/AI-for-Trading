@@ -68,6 +68,27 @@ An asset that provides guarenteed rate of returns with no uncertainity. Usually 
 
 <br><img src="./images/11. sharpe_ratio_year_to_day.png" width=370 height=60></img>
 
+## Capital Asset Pricing Model
+* The CAPM is a model that describes the relationship between systematic risk and expected return for assets. 
+* The CAPM assumes that the excess return of a stock is determined by the market return and the stock’s relationship with the market’s movement. 
+* It is the foundation of the more advanced multi-factor models used by portfolio managers for portfolio construction.
+* β describes which direction and by how much a stock or portfolio moves relative to the market and can be calculated as :
+
+<br><img src="./images/12. beta.png" width=340 height=200></img>
+
+
+### Security Market Line
+* The Security Market Line is the graphical representation of CAPM and it represents the relation between the risk and return of stocks. It is *not the same as Capital Market Line* as the y-axis is expected returns but the x-axis is beta.
+* The Security Market Line is commonly used to evaluate if a stock should be included in a portfolio. 
+* At time points when the stock is above the security market line, it is considered *undervalued* because the stock offers a greater return against its systematic risk. 
+* In contrast, when the stock is below the line, it is considered *overvalued* because the expected return does not overcome the inherent risk.
+
+<br><img src="./images/13. security market line.png" width=370 height=200></img>
+
+
+
+
+
 
 
 
