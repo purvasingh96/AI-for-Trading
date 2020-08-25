@@ -43,6 +43,9 @@ Market capitalization refers to the total dollar market value of a company's out
 
 * When we use the universe of stocks from an index, and then apply some weighting scheme other than market cap weighting, it can be considered a type of smart beta fund.
 * By contrast, a purely alpha fund may create a portfolio of specific stocks, not related to an index, or may choose from the global universe of stocks. The other characteristic that makes a smart beta portfolio "beta" is that it gives its investors a diversified broad exposure to a particular market.
+* To calculate *dollar volume weights : *
+   * Multiply close price and volume
+   * Normalize this column by dividing it by its sum. You can use `divide()` method.
 
 ## Funds : Mutual Funds and Hedge Funds
 ### Mutual Funds
