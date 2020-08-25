@@ -43,9 +43,31 @@ The minimum variance portfolio is a single portfolio in the efficient frontier t
 
 The Capital Market Line is a graphical representation of all the portfolios that optimally combine risk and return. CML is a theoretical concept that gives optimal combinations of a risk-free asset and the market portfolio. The CML is superior to Efficient Frontier in the sense that it combines the risky assets with the risk-free asset.
 
-<br><br><img src="./images/7. capital_market_line.png" width=400 height=250></img> <img src="./images/8. portfolio return.png" width=400 height=250></img>
+<br><br><img src="./images/7. capital_market_line.png" width=400 height=250></img> <img src="./images/8. portfolio return.png" width=400 height=250></img><br><br>
+
+*Slope of capital market line is called Sharpe Ratio.*
 
 ### Risk-free Assets
 An asset that provides guarenteed rate of returns with no uncertainity. Usually entirely risk-free assets donot exist but rate of return on a 3 month treasury bill is called *risk-free rate.* 
+
+### Sharpe Ratio
+
+* The Sharpe ratio is the ratio of reward to volatility. It's a popular way to look at the performance of an asset relative to its risk.
+
+<br><img src="./images/9. Sharpe ratio.png" width=370 height=80></img>
+
+* The risk premium (which we’ll denote with _D_) equals the portfolio return minus risk free rate over a period of time:
+
+<br><img src="./images/9. risk_premium.png" width=370 height=80></img>
+
+* Then, calculate the mean and standard deviation of risk premium over the historical period from t=1 to T:
+
+<br><img src="./images/10. final sharpe ratio.png" width=370 height=120></img>
+
+* To convert the Sharpe ratio from daily to annual, we multiply by square root of 252 (number of trading days in a year)
+
+<br><img src="./images/11. sharpe_ratio_year_to_day.png" width=370 height=60></img>
+
+
 
 
