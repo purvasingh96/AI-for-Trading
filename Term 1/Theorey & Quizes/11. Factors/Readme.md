@@ -16,6 +16,9 @@ The below 2 figures show how to standardize a factor and the coresponding exampl
 ## Why do we need to standardize factors?
 
 * We need to standardize factors in order to make the portfolio *dollar neutral*.
+
+<img src="./Images/4. demean for dollar neutral.png" width=450 height=250>
+
 * Dollar Neutral implies a portfolio has *dollar amount of long positions equals dollar amount of short positions.*
 * If a portfolio is *dollar neutral,* then it is less influenced by overall market movement as shown in the figure below.
 
