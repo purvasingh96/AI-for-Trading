@@ -41,6 +41,12 @@ Leverage is the act of borrowing in order to invest. Borrowing cash in order to 
 
 <img src="./Images/8. leverage ratio.png" width=450 height=300>
 
+## Zipline Pipeline
+Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting. Zipline is currently used in production as the backtesting and live-trading engine powering Quantopian – a free, community-centered, hosted platform for building and executing trading strategies. <br>
+Notebook for using zipline can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/11.%20Factors/Quizzes/3.%20zipline_coding_exercises.ipynb)
+
+
+
 
 
 
