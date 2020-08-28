@@ -22,3 +22,28 @@ An asset's return can be modeled as the contribution from a set of factors, plus
 ### Generalized formula for factor model of return
 
 <img src="./Images/5. generalized factor return formula.png" width=350 height=250></img>
+
+## Factor model of a portfolio return
+
+### Factor exposure of portfolio
+A portfolio's *factor exposure*, is a weighted average of the exposures from its individual stocks. For each stock in portfolio, multiply each stock's portfolio weight by its exposure and sum up all the Betas.<br>
+
+<img src="./Images/6. factor exposure of portfolio.png" width=350 height=250></img>
+
+### Contibutions of factors to portfolio return
+
+To calculate contributions of factors in portfolio return, we simply add the exposures of each factor in the model -<br>
+
+<img src="./Images/7. contributions of factors to portfolio return.png" width=500 height=250></img>
+
+### Specific return of portfolio
+Specific return of a portfolio is the weighted sum of specific return of each stock.<br>
+
+<img src="./Images/8. specific return.png" width=400 height=150></img>
+
+### Factor model of portfolio variance
+
+<img src="./Images/9. factor model of portfolio varience.png" width=400 height=250></img>
+
+
+
