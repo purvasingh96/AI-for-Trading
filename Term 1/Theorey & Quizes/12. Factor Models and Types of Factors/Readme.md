@@ -57,6 +57,48 @@ These assumptions are necessary to obtain unique solutions to the model paramete
 * Eventually, if a factor becomes very well known and most investors are acting on its signal, then the factor can be considered more of a risk factor.
 
 
+## Operations on Distributions of Returns
+<br><img src="./Images/10. operations on distributions of returns.png" width=500 height=250></img><br><br>
+
+## Factor Construction
+
+### Price-volume factor
+1. Unadjusted or adjusted prices
+2. OHLC data
+3. Different frequencies e.g. day, week, hour, minute
+4. Bid-ask quotes
+
+### Volume based factors
+1. *Low Volume* : price movement signals may not be significant.
+2. *High Volume* : price movement signals may be more significant.
+3. *Short Interests* : Tracks quantity of stock shares which are held short.
+4. *Mark to Market* : An accounting concept that asses the value of a health asset as its market price.
+5. *Short Squeeze* : A short squeeze is a rapid increase in the price of a stock owing primarily to technical factors in the market rather than underlying fundamentals. A short squeeze can occur when there is a lack of supply and an excess of demand for the stock due to short sellers covering (liquidating) their positions.
+6. *Long Squeeze* : A long squeeze is a situation in which investors who hold long positions feel the need to sell into a falling market to cut their losses. This pressure to sell usually leads to a further decline in market prices.
+
+### Fundamental
+1. Updated every 3 months
+2. High capacity
+3. Low turnover
+
+### Fundamental Ratio
+
+1. `Earnings per share/Price` (since earnings can be 0 or close to 0, hence heeping it in numerator)
+2. `Book/price` (Earnings can be negative but book/price will remain positive as long as company's NAV is positive)
+3. *Cash Flow* :  Amount of cash flowing into and out of the company. Cash flows are more volatile.
+
+### Event-driven factors
+
+1. Natural disasters.
+2. Government changes.
+3. Interest rate changes.
+4. Mergers and accqisitions.
+5. Index add/delete. Adding index leads to more buying of signals. Deleting index leads to selling of signal.
+
+
+
+
+
 
 
 
