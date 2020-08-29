@@ -55,6 +55,9 @@ Specific return of a portfolio is the weighted sum of specific return of each st
 
 <img src="./Images/17. covariance matrix of assets.png" width=600 height=350></img><br><br>
 
+<img src="./Images/18. portfolio variance.png" width=500 height=80></img><br><br>
+
+<img src="./Images/19. portfolio variance via matrices.png" width=600 height=350></img><br><br>
 
 
 
