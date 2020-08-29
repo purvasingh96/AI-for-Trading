@@ -40,6 +40,25 @@ The Fama and French model has three factors: size of firms, book-to-market value
 
 <img src="./Images/8. SMB and HML formula.png" width=480 height=130></img>
 
+## Time Series Risk Model
+
+<img src="./Images/9. Time series risk model.png" width=480 height=330></img>
+
+### Matrix of Factor Returns
+Calculate the covariance matrix using the time series of factor returns.
+
+<img src="./Images/10. matrix of factor returns.png" width=430 height=130></img>
+
+### Matrix of Factor Exposures
+Use a multiple regression to estimate the factor exposures.
+
+<img src="./Images/11. factor exposure.png" width=430 height=330></img>
+
+### Specific Variance
+Calculate the actual minus estimated returns as the specific return. The variance of that time series is an estimate of specific variance.
+
+<img src="./Images/12. specific return.png" width=430 height=330></img>
+
 
 
 
