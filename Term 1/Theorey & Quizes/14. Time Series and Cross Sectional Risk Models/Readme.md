@@ -24,3 +24,24 @@ To create a theoretical portfolio representing size, we could go long the bottom
 It's also common to compute the spread between two portfolios. One portfolio contains the small cap stocks, and the other portfolio contains the large cap stocks. In this case, we'd just take the difference between the returns of the two portfolios.
 
 <img src="./Images/4. SMB.png" width=450 height=290></img>
+
+## HML (High Minus Low)
+
+Research show that *stocks that have high book value relative to their market price, tends to outperform stocks with lower book value.* book value of a company is the total value of the company's assets, minus the company's outstanding liabilities.
+
+<img src="./Images/5. HML.png" width=480 height=310></img>
+
+## Famma French 3 Factor Model
+The Fama and French model has three factors: size of firms, book-to-market values and excess return on the market. In other words, the three factors used are SMB (small minus big), HML (high minus low) and the portfolio's return less the risk free rate of return.
+
+<img src="./Images/6. Famma French 3 factor model.png" width=480 height=310></img> <img src="./Images/7. SMB and HML.png" width=480 height=310></img>
+
+### Formula for calculating SMB and HML
+
+<img src="./Images/8. SMB and HML formula.png" width=480 height=130></img>
+
+
+
+
+
+
