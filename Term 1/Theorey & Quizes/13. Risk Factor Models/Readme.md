@@ -47,18 +47,15 @@ Specific return of a portfolio is the weighted sum of specific return of each st
 
 ## Variances
 
-### Variance of 1 stock
+<img src="./Images/14. stock 1 variance.png" width=530 height=80></img><br><br>
 
-<img src="./Images/10. variance of 1 stock.png" width=700 height=150></img>
+<img src="./Images/15. variance of stock 2.png" width=530 height=80></img><br><br>
 
-### Pair-wise covariance of 2 stocks
+<img src="./Images/16. covariance of stocks 1 and 2.png" width=600 height=80></img><br><br>
 
-<img src="./Images/11. pairwise covariance of 2 stocks.png" width=400 height=300></img> =>  <img src="./Images/12. refactored variance of stocks.png" width=400 height=300></img>
-<br><br>
+<img src="./Images/17. covariance matrix of assets.png" width=600 height=350></img><br><br>
 
-Final covariance between 2 stocks can be given by the formula : 
 
-<img src="./Images/13. final variance of 2 stocks.png" width=500 height=300></img>
 
 
 
