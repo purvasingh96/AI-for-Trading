@@ -57,10 +57,31 @@ Use a multiple regression to estimate the factor exposures.
 ### Specific Variance
 Calculate the actual minus estimated returns as the specific return. The variance of that time series is an estimate of specific variance.
 
-<img src="./Images/12. specific return.png" width=430 height=330></img>
+<img src="./Images/12. specific return.png" width=450 height=330></img>
 
+# Cross Sectional Models
 
+## Overview
+A cross-section means that we use multiple stocks for a single time period in a calculation. In contrast, a time series is looking at a single stock over multiple time periods.
 
+A cross-sectional model calculates the factor exposure first, and then uses that information to estimate the factor return.
 
+<img src="./Images/14. time series v:s cross sectional model.png" width=450 height=330></img>
 
+## Estimating Factor Return
+
+If we collect a cross-section of multiple stocks for a single time period, then we'll have pairs of stock returns and factor exposures. We can use regression to estimate the factor return for that single time period. Then repeat over multiple time periods to get a time series of factor returns.
+
+<img src="./Images/13. estimating factor return.png" width=450 height=330></img>
+
+## Specific Return
+
+For each time period, we can calculate the specific return as the difference between actual stock return and estimated stock return (using the estimated factor return). Do this for multiple time periods to get a time series of specific return.
+
+<img src="./Images/15. specific return for cross-sectional model.png" width=450 height=330></img>
+
+## Fundamental Factors
+In a cross-sectional risk model, the fundamental data calculated on a company, based on its financials, can be used as the factor exposure of that company, to that factor. We can use regression on a cross-section of stocks to estimate the factor return.
+
+<img src="./Images/14. Fundamental factors.png" width=450 height=330></img>
 
