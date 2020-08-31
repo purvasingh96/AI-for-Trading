@@ -6,6 +6,9 @@
 2. [Demeaning portfolio to make it sector/dollar neutral](https://www.zipline.io/_modules/zipline/pipeline/factors/factor.html#Factor.demean)
 3. [Ranking in zipline](https://www.zipline.io/appendix.html#zipline.pipeline.factors.Factor.rank)
 4. [Scipy's rankdata for handling ties](https://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.stats.rankdata.html)
+5. [Z-score](https://www.zipline.io/appendix.html#zipline.pipeline.Factor.zscore)
+6. [Simple Moving Average](https://www.zipline.io/appendix.html#zipline.pipeline.factors.SimpleMovingAverage)
+7. [Exponential Weighted Moving Average](https://www.zipline.io/appendix.html#zipline.pipeline.factors.ExponentialWeightedMovingAverage)
 
 ## Terminologies
 
@@ -35,3 +38,5 @@
 |-------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | 1.    | Makes alpha factors more robust to outliers and noise.                        | Not robust against outliers and noise.                                                                      |
 | 2.    | Best to use when all alpha vectors are generated from the same stock universe | Useful to apply ranking and then z-scoring when alpha vectors are generated from different stock universes. |
+
+11. *Smoothing* : Data smoothing is done by using an algorithm to remove noise from a data set. This allows important patterns to stand out. Data smoothing can be used to help predict trends, such as those found in securities prices. For example : moving average, exponential weighted moving average.
