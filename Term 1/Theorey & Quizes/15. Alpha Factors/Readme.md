@@ -43,5 +43,10 @@
 
 12. *Leverage Ratio* : The sum of absolute values of all positions long and short divided by whatever capital we devote to support those positions.<br>
 `
-leverage_ratio = psotion/capital
+leverage_ratio = postion/capital
 `
+13. *Factor-weighted returns* : If you created a theoretical portfolio in which the weights for each stock were chosen based on the factor scores (the z-scores we calculated earlier), then we could calculate the daily returns of that theoretical portfolio.
+The returns of this portfolio, in which its weights were determined by the alpha factor, are called the "factor-weighted returns", and also referred to as "factor returns."
+
+
+14. 
