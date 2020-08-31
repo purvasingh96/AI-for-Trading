@@ -29,3 +29,9 @@
     * *Winsorizing alpha vectors* : Replacing alpha values that exceeds 95th percentile by the alpha value at 95th percentile and replacing alpha values lower than 5th percentile by value at 5th percentile.
     * Set a maximum allowed weight for alpha vectors.
 
+10. Z-score : Normalizing alpha factors by substracting mean and dividing by standard deviation for consitent range and distribution.
+
+| S.No. | Ranking                                                                       | Z-scoring                                                                                                   |
+|-------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| 1.    | Makes alpha factors more robust to outliers and noise.                        | Not robust against outliers and noise.                                                                      |
+| 2.    | Best to use when all alpha vectors are generated from the same stock universe | Useful to apply ranking and then z-scoring when alpha vectors are generated from different stock universes. |
