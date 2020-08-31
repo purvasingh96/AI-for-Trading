@@ -49,4 +49,4 @@ leverage_ratio = postion/capital
 The returns of this portfolio, in which its weights were determined by the alpha factor, are called the "factor-weighted returns", and also referred to as "factor returns."
 
 
-14. 
+14. *Sharpe Ratio* : A key metric for evaluating alpha factors. Sharpe ratio is the daily factor return divided by standard deviation of the return. Alpha factors with high sharpe ratio are preferred.
