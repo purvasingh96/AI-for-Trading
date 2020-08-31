@@ -40,3 +40,8 @@
 | 2.    | Best to use when all alpha vectors are generated from the same stock universe | Useful to apply ranking and then z-scoring when alpha vectors are generated from different stock universes. |
 
 11. *Smoothing* : Data smoothing is done by using an algorithm to remove noise from a data set. This allows important patterns to stand out. Data smoothing can be used to help predict trends, such as those found in securities prices. For example : moving average, exponential weighted moving average.
+
+12. *Leverage Ratio* : The sum of absolute values of all positions long and short divided by whatever capital we devote to support those positions.<br>
+`
+leverage_ratio = psotion/capital
+`
