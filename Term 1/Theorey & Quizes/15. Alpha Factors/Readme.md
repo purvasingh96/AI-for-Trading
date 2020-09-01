@@ -95,7 +95,19 @@ The returns of this portfolio, in which its weights were determined by the alpha
 `transger_coefficient = scipy.stats.stats.pearsonr(alpha_weights, optimized_portfolio_weights)`
 
 
+# Life of an Alpha Factor
 
+<img src="./Images/life of alpha/1. propose alpha factor.png" width=350 height=100></img><br>
+<img src="./Images/life of alpha/7. arrow_new.png" width=175 height=60></img><br>
+<img src="./Images/life of alpha/2. perform out of sample testing.png" width=350 height=100></img><br>
+<img src="./Images/life of alpha/7. arrow_new.png" width=175 height=60></img><br>
+<img src="./Images/life of alpha/3. paper trading.png" width=350 height=100></img><br>
+<img src="./Images/life of alpha/7. arrow_new.png" width=175 height=60></img><br>
+<img src="./Images/life of alpha/4. alpha to prod.png" width=350 height=100></img><br>
+<img src="./Images/life of alpha/7. arrow_new.png" width=175 height=60></img><br>
+<img src="./Images/life of alpha/5. alpha weight small.png" width=350 height=100></img><br>
+<img src="./Images/life of alpha/7. arrow_new.png" width=175 height=60></img><br>
+<img src="./Images/life of alpha/6. remove alpha.png" width=350 height=100></img><br>
 
 
 
