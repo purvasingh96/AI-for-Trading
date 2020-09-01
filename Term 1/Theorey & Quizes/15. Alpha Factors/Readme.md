@@ -85,7 +85,14 @@ The returns of this portfolio, in which its weights were determined by the alpha
       * Alpha factor with high sharpe ratio but very high turnover, check that alpha factor for back-testing.
 
 
+21. *Quantile Analysis* - <br><br>
+<img src="./Images/4. quantile analysis.png" width=550 height=300></img>
 
+22. *Ideal Alpha Factors Quantile Performance* - Each successive quantile produces a higher return than the previous one. <br><br>
+<img src="./Images/5. ideal quantil analysis.png" width=550 height=300></img>
+
+23. *Transfer Coefficient* : Measures how closelythe optimized portfolio weights match the original alpha vector. <br>
+`transger_coefficient = scipy.stats.stats.pearsonr(alpha_weights, optimized_portfolio_weights)`
 
 
 
