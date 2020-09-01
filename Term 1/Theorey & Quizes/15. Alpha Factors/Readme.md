@@ -50,3 +50,46 @@ The returns of this portfolio, in which its weights were determined by the alpha
 
 
 14. *Sharpe Ratio* : A key metric for evaluating alpha factors. Sharpe ratio is the daily factor return divided by standard deviation of the return. Alpha factors with high sharpe ratio are preferred.
+
+15. *Rank Information Coefficient (Rank IC)* : The information coefficient (IC) is a measure used to evaluate the skill an investment analyst or active portfolio manager. An IC of +1.0 indicates a perfect prediction of actual returns, while an IC of 0.0 indicates no linear relationship. In the below example, since the rank of alpha values and rank of forward asset returns are the same, Rank IC is 1.<br><br>
+<img src="./Images/1. rank ic.png" width=250 height=250></img>
+
+16. Steps to calculate Rank IC - 
+   * Rank alpha values.
+   * Rank forward returns.
+   * Calculate Spearman correlation between ranked alpha values and ranked forward returns.
+   * The Spearman correlation coefficient is defined as the Pearson correlation coefficient between the rank variables.<br><br>
+   <img src="./Images/2. spearman coefficient.png" width=400 height=150></img>
+   
+17. *Information Ratio (IR)* : The information ratio (IR) is a measurement of portfolio returns beyond the returns of a benchmark, usually an index, compared to the volatility of those returns. The IR is often used as a measure of a portfolio manager's level of skill and ability to generate excess returns (specific/residual returns) relative to a benchmark, but it also attempts to identify the consistency of the performance by incorporating a tracking error, or standard deviation component into the calculation.
+
+18. *Fundamental Law of Active Management* : <br><br>
+   <img src="./Images/3. fundamental law of active management.png" width=230 height=100></img><br>
+      * IR : Information Ratio
+      * IC : Information Coefficient, improves alpha factor
+      * Breadth : Number of *indipendent* trading opportunities per year.
+ 
+19. *Real world constraints* - 
+   * *Liquidity* : Liquidity refers to the ease with which an asset, or security, can be converted into ready cash without affecting its market price.
+   * *Bid-ask spread* : The bid-ask spread is essentially the difference between the highest price that a buyer is willing to pay for an asset and the lowest price that a seller is willing to accept.
+   * *Transaction Costs* : Transaction costs are expenses incurred when buying or selling a good or service. Transaction costs represent the labor required to bring a good or service to market, giving rise to entire industries dedicated to facilitating exchanges. In a financial sense, transaction costs include brokers' commissions and spreads, which are the differences between the price the dealer paid for a security and the price the buyer pays.
+
+20. *Turnover* : turnover measures what fraction of portfolio's total value gets traded in a time period.<br>
+
+  * `Turnover = Value of trades / Portfolio Value`
+  * *Factor Rank Autocorrelation* : 
+      * High FRA => Low Turnover
+      * Low/Negative FRA => High Turnover
+      * Lower turover helps us because it makes it more possible for us to execute trades if stocks are liquid and can reduce transaction costs.
+      * If 2 alpha factors have similar Sharpe Ratio, similar quantile profile and similar factor returns, perfer the one with *lower turnover.*
+      * Alpha factor with high sharpe ratio but very high turnover, check that alpha factor for back-testing.
+
+
+
+
+
+
+
+
+
+
