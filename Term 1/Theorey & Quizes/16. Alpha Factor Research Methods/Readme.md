@@ -48,4 +48,28 @@ To test the model empirically, we regress previous daily prices in the ranking p
 
 <img src="./Images/6. gain and accelerate.png" width=250 height=300></img> <img src="./Images/7. gain acc alpha.png" width=250 height=300></img>
 
+## Research Paper 3 : Expected Skewness and Momentum
+### Abstract:
+Motivated by the time-series insights of Daniel and Moskowitz (2016), we investigate the link between expected skewness and momentum in the cross-section. The alpha of skewness-enhanced (-weakened) momentum is about twice (half) as large as the traditional alpha. These findings are driven by the short leg. Portfolio sorts, Fama-MacBeth regressions, and the market reaction to earnings announcements suggest that expected skewness is an important determinant of momentum. Due to the simplicity of the approach, its economic magnitude, its existence among large stocks, and the success of risk management, the results are difficult to reconcile with the efficient market hypothesis.
+
+<img src="./Images/8. skews.png" width=450 height=300></img> <img src="./Images/9. momentum and skew.png" width=250 height=300></img>
+
+### Momentum and Skew as Joint Alpha Factor
+
+<img src="./Images/10. skew momentum joint factor.png" width=450 height=300></img>
+
+### p1
+In this paper, we comprehensively explore a new dimension in firm-level momentum profitability. More precisely, we document a strong relation between expected idiosyncratic skewness and cross-sectional momentum profits, in particular with respect to past loser stocks. The impact of skewness is economically large, statistically highly significant, holds among large firms, in international markets, and after controlling for a large set of firm characteristics previously linked to momentum profitability (e.g., past returns, idiosyncratic volatility, continuously arriving information, credit ratings).
+
+### p2
+Based on this thought, momentum should be particularly pronounced if losers (winners) have a strong (weak) positive skew. Conversely, high (low) positive skewness on the winner (loser) leg is expected to reduce the profitability of momentum.
+
+### p3
+As a proxy for expected skewness, our baseline analysis relies on the measure proposed by Bali et al. (2011) because of its simplicity, its economic persuasiveness, and its ability to predict realized skewness. It is calculated as the maximum daily return during the preceding month.
+
+
+
+
+
+
 
