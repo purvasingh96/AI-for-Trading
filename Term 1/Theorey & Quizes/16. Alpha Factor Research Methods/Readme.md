@@ -24,4 +24,4 @@ over several weeks...In the third analysis we
 examine whether stocks with high overnight returns underperform those with low overnight
 returns over the long term.
 
-Exercise on overnight returns can be found [here]
+Exercise on overnight returns can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/16.%20Alpha%20Factor%20Research%20Methods/Quizzes/overnight_returns.ipynb)
