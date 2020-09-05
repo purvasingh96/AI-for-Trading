@@ -2,6 +2,8 @@
 
 ## Research Paper 1 : [Overnight Returns and Firm-Specific Investor Sentiment](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2554010)
 
+[Download Paper](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/16.%20Alpha%20Factor%20Research%20Methods/Research%20Papers/Overnight%20Returns%20and%20Firm-Specific%20Investor%20Sentiment.pdf)
+
 ### Abtract
 We explore the possibility that overnight returns can serve as a measure of firm-specific investor sentiment by analyzing whether they exhibit characteristics expected of a sentiment measure. First, we document short-term persistence in overnight returns, consistent with existing evidence of short-term persistence in share demand of sentiment-influenced retail investors. Second, we find that short-term persistence is stronger for harder-to-value firms, consistent with evidence that sentiment plays a larger role when there is less objective data available for valuation. Third, we show that stocks with high (low) overnight returns underperform (outperform) over the longer-term, consistent with evidence of temporary sentiment-driven mispricing.  
 
@@ -28,6 +30,8 @@ Exercise on overnight returns can be found [here](https://github.com/purvasingh9
 
 ## Research Paper 2 : [The Formation Process of Winners and Losers in Momentum Investing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2610571)
 
+[Download Paper](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/16.%20Alpha%20Factor%20Research%20Methods/Research%20Papers/The%20Formation%20Process%20of%20Winners%20and%20Losers%20in%20Momentum%20Investing.pdf)
+
 ### Abstract:
 Previous studies have focused on which stocks are winners or losers but have paid little attention to the formation process of past returns. This paper develops a model showing that past returns and the formation process of past returns have a joint effect on future expected returns. The empirical evidence shows that the zero-investment portfolio, including stocks with specific patterns of historical prices, improves monthly momentum profit by 59%. Overall, the process of how one stock becomes a winner or loser can further distinguish the best and worst stocks in a group of winners or losers.
 
@@ -48,7 +52,10 @@ To test the model empirically, we regress previous daily prices in the ranking p
 
 <img src="./Images/6. gain and accelerate.png" width=250 height=300></img> <img src="./Images/7. gain acc alpha.png" width=250 height=300></img>
 
-## Research Paper 3 : Expected Skewness and Momentum
+## Research Paper 3 : [Expected Skewness and Momentum](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2600014)
+
+[Download Paper](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/16.%20Alpha%20Factor%20Research%20Methods/Research%20Papers/Expected%20Skewness%20and%20Momentum.pdf)
+
 ### Abstract:
 Motivated by the time-series insights of Daniel and Moskowitz (2016), we investigate the link between expected skewness and momentum in the cross-section. The alpha of skewness-enhanced (-weakened) momentum is about twice (half) as large as the traditional alpha. These findings are driven by the short leg. Portfolio sorts, Fama-MacBeth regressions, and the market reaction to earnings announcements suggest that expected skewness is an important determinant of momentum. Due to the simplicity of the approach, its economic magnitude, its existence among large stocks, and the success of risk management, the results are difficult to reconcile with the efficient market hypothesis.
 
@@ -68,7 +75,9 @@ Based on this thought, momentum should be particularly pronounced if losers (win
 As a proxy for expected skewness, our baseline analysis relies on the measure proposed by Bali et al. (2011) because of its simplicity, its economic persuasiveness, and its ability to predict realized skewness. It is calculated as the maximum daily return during the preceding month.
 
 
-## Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle
+## Reseacrh Paper 4 : [Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2155491) 
+
+[Download Paper](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/16.%20Alpha%20Factor%20Research%20Methods/Research%20Papers/Arbitrage%20Asymmetry%20and%20the%20Idiosyncratic%20Volatility%20Puzzle.pdf)
 
 ### Abstract
 Many investors purchase stock but are reluctant or unable to sell short. Combining this arbitrage asymmetry with the arbitrage risk represented by idiosyncratic volatility (IVOL) explains the negative relation between IVOL and average return. The IVOL-return relation is negative among overpriced stocks but positive among underpriced stocks, with mispricing determined by combining 11 return anomalies. Consistent with arbitrage asymmetry, the negative relation among overpriced stocks is stronger, especially for stocks less easily shorted, so the overall IVOL-return relation is negative. Further supporting our explanation, high investor sentiment weakens the positive relation among underpriced stocks and, especially, strengthens the negative relation among overpriced stocks.
