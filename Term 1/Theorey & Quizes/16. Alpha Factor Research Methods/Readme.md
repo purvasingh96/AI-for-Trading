@@ -68,7 +68,19 @@ Based on this thought, momentum should be particularly pronounced if losers (win
 As a proxy for expected skewness, our baseline analysis relies on the measure proposed by Bali et al. (2011) because of its simplicity, its economic persuasiveness, and its ability to predict realized skewness. It is calculated as the maximum daily return during the preceding month.
 
 
+## Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle
 
+### Abstract
+Many investors purchase stock but are reluctant or unable to sell short. Combining this arbitrage asymmetry with the arbitrage risk represented by idiosyncratic volatility (IVOL) explains the negative relation between IVOL and average return. The IVOL-return relation is negative among overpriced stocks but positive among underpriced stocks, with mispricing determined by combining 11 return anomalies. Consistent with arbitrage asymmetry, the negative relation among overpriced stocks is stronger, especially for stocks less easily shorted, so the overall IVOL-return relation is negative. Further supporting our explanation, high investor sentiment weakens the positive relation among underpriced stocks and, especially, strengthens the negative relation among overpriced stocks.
+
+### p1
+Here we use the famous value factor which is described in many place (e.g., Value and Momentum Everywhere http://pages.stern.nyu.edu/~lpederse/papers/ValMomEverywhere.pdf): p. 8 "For individual stocks, we use the common value signal of the ratio of the book value of equity to market value of equity, or book-to-market ratio,"; in this study we use the Sharadar ratio Price/Book. We use this as an anomaly to create a refined factor as described in the "Arbitrage Asymmetry and the Idiosyncratic Volatility Puzzle". p. 2 This study presents an explanation for the observed negative relation be- tween IVOL and expected return. We start with the principle that [idiosyncratic volatility] IVOL rep- resents risk that deters arbitrage and the resulting reduction of mispricing. In keeping with previous literature, we refer to risk that deters arbitrage as arbi- trage risk.3 We then combine this familiar concept with what we term arbitrage asymmetry: many investors who would buy a stock they see as underpriced are reluctant or unable to short a stock they see as overpriced.
+
+### p2
+Combining the effects of arbitrage risk and arbitrage asymmetry implies the observed negative relation between IVOL and expected return. To see this, first note that stocks with greater IVOL, and thus greater arbitrage risk, should be more susceptible to mispricing that is not eliminated by arbitrageurs [my emphasis added]. Among overpriced stocks, the IVOL effect in expected return should therefore be negative—those with the highest IVOL should be the most overpriced.
+
+### p3
+We compute individual stock IVOL, following Ang et al. (2006), as the stan- dard deviation of the most recent month’s daily benchmark-adjusted returns.
 
 
 
