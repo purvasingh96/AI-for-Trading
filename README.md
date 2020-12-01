@@ -1,5 +1,7 @@
 # AI-for-Trading
-Repository for my solutions for Nanodegree in AI-for-Trading by Udacity.
+
+## Contents
+📈 This repo contains detailed notes and multiple projects implemented in Python related to AI and Finance such as portfolio optimization, researching alpha factors, leveraging Alphalens and backtesting your strategy via Zipline.
 
 * [Term 1](https://github.com/purvasingh96/AI-for-Trading/tree/master/Term%201)
   * [Theorey and Quizes](https://github.com/purvasingh96/AI-for-Trading/tree/master/Term%201/Theorey%20%26%20Quizes)
@@ -32,3 +34,15 @@ Repository for my solutions for Nanodegree in AI-for-Trading by Udacity.
        * [Project 7: Combining Signals for Enhanced Alpha](https://github.com/purvasingh96/AI-for-Trading/tree/master/Term%202/Projects/Project%20-%207%20-%20Combining%20Signals%20for%20Enhanced%20Alpha)
        * [Project 8: Backtesting](https://github.com/purvasingh96/AI-for-Trading/tree/master/Term%202/Projects/Project%20-%208%20-%20Backtesting)
       
+
+
+## Contributor
+- [Purva Singh](https://purvasingh96.github.io)
+
+## Contributing
+
+Please feel free to open a Pull Request to contribute towards this repository. Also, if you think there's any section that requires more/better explanation, please use the issue tracker to let me know about the same.
+
+## Support 
+
+If you like this repo and find it useful, please consider (★) starring it (on top right of the page) so that it can reach a broader audience.
