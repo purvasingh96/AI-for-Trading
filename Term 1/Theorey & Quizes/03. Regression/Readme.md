@@ -20,7 +20,7 @@ The Kolmogorov Smirnov test can be used to compare distributions other than the 
 
 So in summary, if you want to be thorough, you can use all three tests. If you only want to use one test, use the Shapiro-Wilk test. For a sanity check, visualize your data distribution with a histogram, box-whisker plot, and/or a QQ plot.<br>
 
-Corresponding python implementation of Normality can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/3.%20Regression/test_normality.ipynb)
+Corresponding python implementation of Normality can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/03.%20Regression/Quizzes/test_normality.ipynb)
 
 ## Heteroskedasticity
 One of the assumptions of linear regression is that its input data are homoscedastic. A visual way to check if the our data is homoscedastic is a scatter plot.
@@ -67,7 +67,7 @@ We can evaluate our model to check if its the best fit by the following methods 
 ## Multi-variate Regression
 If we chose more than one depended variable that we wish to predict. For example, we try to predict not just housing price but also home's electricity consumption and gas consumption. This is known as *multi-variate regression.* When we are using more than one *in-depended variable* to *predict more than one depended variable*, it is called *multi-variate multiple regression.*
 
-The corresponding python implementation using sklearn's `LinearRegression` can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/3.%20Regression/regression.ipynb)
+The corresponding python implementation using sklearn's `LinearRegression` can be found [here](https://github.com/purvasingh96/AI-for-Trading/blob/master/Term%201/Theorey%20%26%20Quizes/03.%20Regression/Quizzes/regression.ipynb)
 
 
 
