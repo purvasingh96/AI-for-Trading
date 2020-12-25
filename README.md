@@ -1,7 +1,7 @@
 # AI-for-Trading
 
 ## The Blog Series
-Follow my series on 'AI for Trading' published by StockGram: [The AI for Trading Series](https://thestockgram.com/blog).
+Follow my series on 'AI for Trading' on Medium: [The AI for Trading Series](https://purvasingh.medium.com).
 ## Contents
 📈 This repo contains detailed notes and multiple projects implemented in Python related to AI and Finance such as portfolio optimization, researching alpha factors, leveraging Alphalens and backtesting your strategy via Zipline.
 
